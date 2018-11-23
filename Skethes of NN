@@ -1,0 +1,24 @@
+import matplotlib.pyplot
+import numpy 
+class neuralNetwork:
+    def _init_(self,inputnodes,hiddennodes,outputnodes,learningrate):
+      #задание узлов
+      self.inodes= inputnodes
+      self.hnodes= hiddennodes
+      self.onodes= outputnodes
+      #коэффициент обучение
+      self.lr =learningrate
+      #инициализация входных, скрытых, выходных слоев и коэфф обуч
+      input_nodes=3
+      hidden_nodes=3
+      output_nodes=3
+      learning_rate=0.3
+      n = neuralNetwork(input_nodes,hidden_nodes,output_nodes,learning_rate)
+    def train():
+        numpy.random.rand(3,3)
+        self.wih = (numpy.random.rand(self.hnodes, self.inodes) - 0.5)
+        self.who = (numpy.random.rand(self.onodes, self.hnodes) - 0.5)
+        pass
+
+    def query():
+        pass
